@@ -7,26 +7,48 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.container {
-    background-color: #ffffff;
+.bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#trip-form {
+    background-color: pink;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    border-radius: 8px;
+}
+a {
+    font-size: 20px; 
+    font-weight: bold;
 }
 
+
+h1 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
 form {
     margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
 }
 
-label, input {
+form label, form input {
     margin-bottom: 10px;
     display: block;
 }
 
-button {
+form button {
     background-color: #4caf50;
     color: white;
     padding: 10px 20px;
@@ -35,7 +57,30 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+ul {
+    list-style: none;
+    padding: 0;
+}
 
+li {
+    padding: 5px 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 button:hover {
     background-color: #45a049;
+}
+.bottom-link {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding-top: 5000px 0;
 }
