@@ -4,8 +4,8 @@
         <title>Metro Trip Planner</title>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
     </head>
-    <body>
     <h1>Metro Trip Planner</h1>
+    <body>
     <div class="bg">
         <form id="trip-form">
             <label for="start-station">Start Station:</label>
@@ -17,11 +17,13 @@
             <button type="submit">Plan Trip</button>
         </form>
     </div>
-    <div id="trip-result"></div>
+    <!-- <div id="trip-result"> -->
     <ul id="route"></ul>
     <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <!-- </div> -->
 </body>
-    <div class="bottom-link">
-        <a href="index.html">Click Here to go Back to Planning</a>
+    <div class="bottom-link" style="background-color: pink;">
+        <a href="">Click Here to go Back to Planning</a>
+
     </div>
 </html>
