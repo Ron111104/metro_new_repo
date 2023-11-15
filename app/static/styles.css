@@ -1,22 +1,22 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    text-align: center;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-image: url('assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bg {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    size: fixed;
 }
+
 #trip-form {
     background-color: pink;
     padding: 20px;
@@ -34,8 +34,9 @@ h1 {
     padding: 10px;
     margin: 0;
 }
+
 form {
-    margin-top: 20px;
+    margin: 20px;
     padding: 20px;
     background-color: white;
     border-radius: 5px;
@@ -44,22 +45,26 @@ form {
 }
 
 form label, form input {
-    margin-bottom: 10px;
     display: block;
+    margin-bottom: 10px;
 }
 
 form button {
     background-color: #4caf50;
     color: white;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
+
 }
-ul {
+
+ul{
     list-style: none;
     padding: 0;
+    color: blue;
+    font-size: 1.5rem;
 }
 
 li {
@@ -70,6 +75,7 @@ a {
     color: #333;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
